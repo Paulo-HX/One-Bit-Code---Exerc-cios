@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Atividade</title>
+  </head>
+  <body>
+    <h3>Cadastro da Liga de Astronautas</h3>
+    <form action="/action_page.php">
+      <label for="fname">Nome:</label>
+      <input type="text" id="fname" name="fname" />
+    </form>
+    <br />
+    <form>
+      <label for="email">Email:</label>
+      <required type="email"
+        ><input type="email" id="email" name="email"
+      /></required>
+      <label for="pwd">Senha:</label>
+      <input type="password" id="pwd" name="pwd" />
+    </form>
+    <br />
+    <form>
+      <label for="date">Data de Nascimento:</label>
+      <input type="date" id="date" />
+      <label for="file">Foto:</label>
+      <input type="file" id="file" name="file" />
+    </form>
+    <br />
+    <form>
+      <label for="Nacionalidade">Nacionalidade:</label>
+      <select id="Pais" name="Pais">
+        <option value="Americano">Americano</option>
+        <option value="Brsileiro">Brasileiro</option>
+        <option value="Russo">Russo</option>
+      </select>
+      <label for="Gênero">-Gênero: </label>
+      <input type="radio" id="Masculino" name="Masculino" value="Masculino" />  
+      <label for="Masculino"> Masculino</label>
+      <input type="radio" id="Feminino" name="Feminino" value="Feminino" />  
+      <label for="Feminino">Feminino</label>
+    </form>
+    <br />
+    <form>
+      <label for="Qualidades">Suas Principais Qualidades:</label>
+      <br />
+      <input type="checkbox" id="Inteligência" name="Inteligência" />
+      <label for="Inteligência">Inteligência/</label>
+      <input type="checkbox" id="Resiliência" name="Resiliência" />
+      <label for="Resiliência">Resiliência/</label>
+      <input type="checkbox" id="Preparo Fisico" name="Preparo Fisico" />
+      <label for="Preparo Fisico">Preparo Fisico/</label>
+      <input type="checkbox" id="Educação" name="Educação" />
+      <label for="Educação">Educação/</label>
+    </form>
+    <br />
+    <textarea
+      id="porque"
+      name="porque"
+      rows="4"
+      cols="50"
+      placeholder="Porque você gostaria de ser um Astronauta?"
+    ></textarea>
+    <br />
+    <br />
+    <input type="button" value="Criar" />
+  </body>
+</html>
